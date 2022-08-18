@@ -1,0 +1,50 @@
+@font-face {
+    font-family: dseg7modern-bold-italic;
+    src: url('font/DSEG7Modern-BoldItalic.ttf');
+}
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    padding: 20px;
+    background-color: darkgray;
+    height: 700px;
+    width: 600px;
+}
+
+.display {
+    padding: 10px;
+    font-family: dseg7modern-bold-italic;
+    font-size: 80px;
+    text-align: right;
+    background-color: darkslategray;
+    height: 100px;
+    margin-bottom: 40px;
+}
+
+.row {
+    background-color: red;
+    height: 100px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.button {
+    font-size: 24px;
+    font-weight: bolder;
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
